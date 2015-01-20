@@ -1,0 +1,84 @@
+.ms-slider_container {
+  width: 1000px;
+  height: 110px;
+}
+
+.ms-viewport_container {
+  display: inline-block;
+  width: 600px;
+  height: 80px;
+  overflow: hidden;
+  background-color: #ffffbb;
+}  
+
+.ms-viewport {
+  overflow: hidden;
+  left: -2005px;
+  width: 8009px;
+}
+
+ul.ms-slider_ul {
+  display: inline-block;
+}
+
+ul.ms-slider_ul > li {
+  position:relative; 
+  list-style: none;
+  float: left;
+  margin-left: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: #ababab;
+  left: 0px;
+}
+
+li.ms-view {
+  display: inline !important;  
+}
+
+li.ms-display_none {
+  display:none; 
+}
+
+li.ms-drag_view {
+  background-color: #ff0000 !important;
+}
+
+li.ms-drop_view {
+  background-color: #00ff00 !important;
+  display: inline !important;
+}  
+
+.ms-drag_background {
+  background-color: #ffcfcf !important;
+}
+
+/* buttons control */
+
+.ms-prev_navigator {
+  display: inline-block;
+  width:150px;
+}  
+
+.ms-next_navigator {
+  display: inline-block;
+  width:150px;
+}
+
+.ms-slide {
+  width: 80px;
+}
+
+.ms-slide_counter {
+  width: 20px;
+  display: inline-block;
+}
+
+.ms-page {
+  width: 80px;
+}
+
+.ms-page_counter {
+  width: 20px;
+  display: inline-block;
+}
